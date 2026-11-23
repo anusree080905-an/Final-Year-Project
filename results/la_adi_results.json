@@ -1,0 +1,115 @@
+{
+  "language_scores": {
+    "ta": {
+      "language_code": "ta",
+      "language_name": "Tamil",
+      "language_family": "Dravidian",
+      "la_adi_score": 0.7034,
+      "classification_performance": 0.7857,
+      "clue_gap": 0.2971,
+      "paraphrasing_stability": 1.0,
+      "clean_f1": 0.7857,
+      "perturb_f1": 0.8074,
+      "rank": 4
+    },
+    "te": {
+      "language_code": "te",
+      "language_name": "Telugu",
+      "language_family": "Dravidian",
+      "la_adi_score": 0.7433,
+      "classification_performance": 0.8453,
+      "clue_gap": 0.3505,
+      "paraphrasing_stability": 1.0,
+      "clean_f1": 0.8453,
+      "perturb_f1": 0.8861,
+      "rank": 2
+    },
+    "ml": {
+      "language_code": "ml",
+      "language_name": "Malayalam",
+      "language_family": "Dravidian",
+      "la_adi_score": 0.7083,
+      "classification_performance": 0.8115,
+      "clue_gap": 0.2791,
+      "paraphrasing_stability": 1.0,
+      "clean_f1": 0.8115,
+      "perturb_f1": 0.8582,
+      "rank": 3
+    },
+    "kn": {
+      "language_code": "kn",
+      "language_name": "Kannada",
+      "language_family": "Dravidian",
+      "la_adi_score": 0.7508,
+      "classification_performance": 0.8486,
+      "clue_gap": 0.3712,
+      "paraphrasing_stability": 1.0,
+      "clean_f1": 0.8486,
+      "perturb_f1": 0.8979,
+      "rank": 1
+    },
+    "hi": {
+      "language_code": "hi",
+      "language_name": "Hindi",
+      "language_family": "Indo-Aryan",
+      "la_adi_score": 0.6573,
+      "classification_performance": 0.7493,
+      "clue_gap": 0.1918,
+      "paraphrasing_stability": 1.0,
+      "clean_f1": 0.7493,
+      "perturb_f1": 0.8092,
+      "rank": 8
+    },
+    "bn": {
+      "language_code": "bn",
+      "language_name": "Bengali",
+      "language_family": "Indo-Aryan",
+      "la_adi_score": 0.7003,
+      "classification_performance": 0.7859,
+      "clue_gap": 0.2865,
+      "paraphrasing_stability": 1.0,
+      "clean_f1": 0.7859,
+      "perturb_f1": 0.8521,
+      "rank": 5
+    },
+    "mr": {
+      "language_code": "mr",
+      "language_name": "Marathi",
+      "language_family": "Indo-Aryan",
+      "la_adi_score": 0.6755,
+      "classification_performance": 0.7627,
+      "clue_gap": 0.2347,
+      "paraphrasing_stability": 1.0,
+      "clean_f1": 0.7627,
+      "perturb_f1": 0.8335,
+      "rank": 7
+    },
+    "gu": {
+      "language_code": "gu",
+      "language_name": "Gujarati",
+      "language_family": "Indo-Aryan",
+      "la_adi_score": 0.6907,
+      "classification_performance": 0.7493,
+      "clue_gap": 0.3032,
+      "paraphrasing_stability": 1.0,
+      "clean_f1": 0.7493,
+      "perturb_f1": 0.8401,
+      "rank": 6
+    }
+  },
+  "ranking": [
+    "kn",
+    "te",
+    "ml",
+    "ta",
+    "bn",
+    "gu",
+    "mr",
+    "hi"
+  ],
+  "family_summary": {
+    "Dravidian_mean_LA_ADI": 0.7264,
+    "Indo_Aryan_mean_LA_ADI": 0.681,
+    "overall_mean_LA_ADI": 0.7037
+  }
+}

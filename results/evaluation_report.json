@@ -1,0 +1,417 @@
+{
+  "overall": {
+    "accuracy": 0.8089,
+    "precision": 0.8676,
+    "recall": 0.7292,
+    "f1_score": 0.7924,
+    "auc": 0.8955,
+    "confusion_matrix": [
+      [
+        1421,
+        178
+      ],
+      [
+        433,
+        1166
+      ]
+    ],
+    "total_samples": 3198
+  },
+  "per_language": {
+    "ta": {
+      "accuracy": 0.805,
+      "precision": 0.872,
+      "recall": 0.715,
+      "f1_score": 0.7857,
+      "auc": 0.9033,
+      "confusion_matrix": [
+        [
+          179,
+          21
+        ],
+        [
+          57,
+          143
+        ]
+      ],
+      "total_samples": 400
+    },
+    "te": {
+      "accuracy": 0.8593,
+      "precision": 0.9387,
+      "recall": 0.7688,
+      "f1_score": 0.8453,
+      "auc": 0.9364,
+      "confusion_matrix": [
+        [
+          189,
+          10
+        ],
+        [
+          46,
+          153
+        ]
+      ],
+      "total_samples": 398
+    },
+    "ml": {
+      "accuracy": 0.82,
+      "precision": 0.8516,
+      "recall": 0.775,
+      "f1_score": 0.8115,
+      "auc": 0.9132,
+      "confusion_matrix": [
+        [
+          173,
+          27
+        ],
+        [
+          45,
+          155
+        ]
+      ],
+      "total_samples": 400
+    },
+    "kn": {
+      "accuracy": 0.86,
+      "precision": 0.9235,
+      "recall": 0.785,
+      "f1_score": 0.8486,
+      "auc": 0.9191,
+      "confusion_matrix": [
+        [
+          187,
+          13
+        ],
+        [
+          43,
+          157
+        ]
+      ],
+      "total_samples": 400
+    },
+    "hi": {
+      "accuracy": 0.7625,
+      "precision": 0.7933,
+      "recall": 0.71,
+      "f1_score": 0.7493,
+      "auc": 0.8355,
+      "confusion_matrix": [
+        [
+          163,
+          37
+        ],
+        [
+          58,
+          142
+        ]
+      ],
+      "total_samples": 400
+    },
+    "bn": {
+      "accuracy": 0.8025,
+      "precision": 0.858,
+      "recall": 0.725,
+      "f1_score": 0.7859,
+      "auc": 0.9002,
+      "confusion_matrix": [
+        [
+          176,
+          24
+        ],
+        [
+          55,
+          145
+        ]
+      ],
+      "total_samples": 400
+    },
+    "mr": {
+      "accuracy": 0.79,
+      "precision": 0.8766,
+      "recall": 0.675,
+      "f1_score": 0.7627,
+      "auc": 0.8608,
+      "confusion_matrix": [
+        [
+          181,
+          19
+        ],
+        [
+          65,
+          135
+        ]
+      ],
+      "total_samples": 400
+    },
+    "gu": {
+      "accuracy": 0.7725,
+      "precision": 0.8344,
+      "recall": 0.68,
+      "f1_score": 0.7493,
+      "auc": 0.8761,
+      "confusion_matrix": [
+        [
+          173,
+          27
+        ],
+        [
+          64,
+          136
+        ]
+      ],
+      "total_samples": 400
+    }
+  },
+  "cross_ai": {
+    "holdout_gpt-oss": {
+      "unseen_generator": "gpt-oss",
+      "metrics": {
+        "accuracy": 0.7464,
+        "precision": 0.4493,
+        "recall": 0.0581,
+        "f1_score": 0.1028,
+        "auc": 0.5244,
+        "confusion_matrix": [
+          [
+            1561,
+            38
+          ],
+          [
+            503,
+            31
+          ]
+        ],
+        "total_samples": 2133
+      }
+    },
+    "holdout_qwen2.5": {
+      "unseen_generator": "qwen2.5",
+      "metrics": {
+        "accuracy": 0.8799,
+        "precision": 0.8026,
+        "recall": 0.688,
+        "f1_score": 0.7409,
+        "auc": 0.884,
+        "confusion_matrix": [
+          [
+            1509,
+            90
+          ],
+          [
+            166,
+            366
+          ]
+        ],
+        "total_samples": 2131
+      }
+    },
+    "holdout_aya-8b": {
+      "unseen_generator": "aya-8b",
+      "metrics": {
+        "accuracy": 0.8879,
+        "precision": 0.7928,
+        "recall": 0.7467,
+        "f1_score": 0.7691,
+        "auc": 0.8722,
+        "confusion_matrix": [
+          [
+            1495,
+            104
+          ],
+          [
+            135,
+            398
+          ]
+        ],
+        "total_samples": 2132
+      }
+    }
+  },
+  "cross_language": {
+    "IndoAryan_to_Dravidian": {
+      "accuracy": 0.729,
+      "precision": 0.6826,
+      "recall": 0.8561,
+      "f1_score": 0.7596,
+      "auc": 0.8632,
+      "confusion_matrix": [
+        [
+          481,
+          318
+        ],
+        [
+          115,
+          684
+        ]
+      ],
+      "total_samples": 1598
+    },
+    "Dravidian_to_IndoAryan": {
+      "accuracy": 0.7169,
+      "precision": 0.9161,
+      "recall": 0.4775,
+      "f1_score": 0.6278,
+      "auc": 0.7769,
+      "confusion_matrix": [
+        [
+          765,
+          35
+        ],
+        [
+          418,
+          382
+        ]
+      ],
+      "total_samples": 1600
+    }
+  },
+  "ablation_study": {
+    "Full_Model": {
+      "accuracy": 0.8024,
+      "precision": 0.8921,
+      "recall": 0.6879,
+      "f1_score": 0.7768,
+      "auc": 0.8897,
+      "confusion_matrix": [
+        [
+          1466,
+          133
+        ],
+        [
+          499,
+          1100
+        ]
+      ],
+      "total_samples": 3198
+    },
+    "Linguistic_Only": {
+      "accuracy": 0.7611,
+      "precision": 0.8608,
+      "recall": 0.6229,
+      "f1_score": 0.7228,
+      "auc": 0.8509,
+      "confusion_matrix": [
+        [
+          1438,
+          161
+        ],
+        [
+          603,
+          996
+        ]
+      ],
+      "total_samples": 3198
+    },
+    "Script_Morphological_Only": {
+      "accuracy": 0.5972,
+      "precision": 0.6286,
+      "recall": 0.4753,
+      "f1_score": 0.5413,
+      "auc": 0.6474,
+      "confusion_matrix": [
+        [
+          1150,
+          449
+        ],
+        [
+          839,
+          760
+        ]
+      ],
+      "total_samples": 3198
+    },
+    "AI_Style_Only": {
+      "accuracy": 0.7695,
+      "precision": 0.9184,
+      "recall": 0.5916,
+      "f1_score": 0.7197,
+      "auc": 0.8429,
+      "confusion_matrix": [
+        [
+          1515,
+          84
+        ],
+        [
+          653,
+          946
+        ]
+      ],
+      "total_samples": 3198
+    },
+    "Stylometric_Without_LangAware": {
+      "accuracy": 0.7946,
+      "precision": 0.8998,
+      "recall": 0.6629,
+      "f1_score": 0.7634,
+      "auc": 0.883,
+      "confusion_matrix": [
+        [
+          1481,
+          118
+        ],
+        [
+          539,
+          1060
+        ]
+      ],
+      "total_samples": 3198
+    }
+  },
+  "paraphrasing_robustness": {
+    "clean": {
+      "accuracy": 0.8883,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "auc": NaN,
+      "confusion_matrix": [
+        [
+          1416,
+          178
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "total_samples": 1594
+    },
+    "paraphrase_1": {
+      "accuracy": 0.7215,
+      "precision": 1.0,
+      "recall": 0.7215,
+      "f1_score": 0.8382,
+      "auc": NaN,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          980,
+          2539
+        ]
+      ],
+      "total_samples": 3519
+    },
+    "paraphrase_2": {
+      "accuracy": 0.7884,
+      "precision": 1.0,
+      "recall": 0.7884,
+      "f1_score": 0.8817,
+      "auc": NaN,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          745,
+          2776
+        ]
+      ],
+      "total_samples": 3521
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "train_rows": 16000,
+  "val_rows": 2400,
+  "test_rows": 3198,
+  "perturbation_test_rows": 8634,
+  "languages": [
+    "tam_Taml",
+    "tel_Telu",
+    "mal_Mlym",
+    "kan_Knda",
+    "hin_Deva",
+    "ben_Beng",
+    "mar_Deva",
+    "guj_Gujr"
+  ],
+  "target_lang_codes": [
+    "ta",
+    "te",
+    "ml",
+    "kn",
+    "hi",
+    "bn",
+    "mr",
+    "gu"
+  ],
+  "train_lang_dist": {
+    "mr": 2000,
+    "ta": 2000,
+    "gu": 2000,
+    "hi": 2000,
+    "kn": 2000,
+    "te": 2000,
+    "ml": 2000,
+    "bn": 2000
+  },
+  "train_gen_dist": {
+    "human": 8000,
+    "aya-8b": 2668,
+    "qwen2.5": 2666,
+    "gpt-oss": 2666
+  },
+  "train_label_dist": {
+    "1": 8000,
+    "0": 8000
+  },
+  "test_lang_dist": {
+    "kn": 400,
+    "mr": 400,
+    "bn": 400,
+    "hi": 400,
+    "gu": 400,
+    "ta": 400,
+    "ml": 400,
+    "te": 398
+  },
+  "test_gen_dist": {
+    "human": 1599,
+    "gpt-oss": 534,
+    "aya-8b": 533,
+    "qwen2.5": 532
+  },
+  "test_label_dist": {
+    "0": 1599,
+    "1": 1599
+  }
+}

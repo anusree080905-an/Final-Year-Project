@@ -1,0 +1,439 @@
+{
+  "global_fingerprints": [
+    {
+      "feature": "bigram_entropy",
+      "importance": 2.13803,
+      "direction": "positive_ai"
+    },
+    {
+      "feature": "comma_danda_density",
+      "importance": 0.24689,
+      "direction": "positive_ai"
+    },
+    {
+      "feature": "word_entropy",
+      "importance": 0.22326,
+      "direction": "human_leaning"
+    },
+    {
+      "feature": "bigram_repetition_rate",
+      "importance": 0.2082,
+      "direction": "positive_ai"
+    },
+    {
+      "feature": "root_ttr",
+      "importance": 0.19927,
+      "direction": "human_leaning"
+    },
+    {
+      "feature": "indic_char_ratio",
+      "importance": 0.19757,
+      "direction": "positive_ai"
+    },
+    {
+      "feature": "consonant_ratio",
+      "importance": 0.18866,
+      "direction": "human_leaning"
+    },
+    {
+      "feature": "char_entropy",
+      "importance": 0.18355,
+      "direction": "positive_ai"
+    },
+    {
+      "feature": "mean_sentence_length",
+      "importance": 0.15237,
+      "direction": "human_leaning"
+    },
+    {
+      "feature": "lang_kn",
+      "importance": 0.14063,
+      "direction": "positive_ai"
+    },
+    {
+      "feature": "prefix_marker_frequency",
+      "importance": 0.13961,
+      "direction": "human_leaning"
+    },
+    {
+      "feature": "lexical_uniformity_jaccard",
+      "importance": 0.13434,
+      "direction": "positive_ai"
+    },
+    {
+      "feature": "word_repetition_rate",
+      "importance": 0.12091,
+      "direction": "positive_ai"
+    },
+    {
+      "feature": "punctuation_density",
+      "importance": 0.11938,
+      "direction": "human_leaning"
+    },
+    {
+      "feature": "agglutination_index",
+      "importance": 0.10801,
+      "direction": "positive_ai"
+    }
+  ],
+  "family_fingerprints": {
+    "Dravidian": [
+      {
+        "feature": "bigram_entropy",
+        "importance": 2.24635
+      },
+      {
+        "feature": "comma_danda_density",
+        "importance": 0.26996
+      },
+      {
+        "feature": "consonant_ratio",
+        "importance": 0.23956
+      },
+      {
+        "feature": "word_entropy",
+        "importance": 0.23722
+      },
+      {
+        "feature": "root_ttr",
+        "importance": 0.22129
+      },
+      {
+        "feature": "lang_kn",
+        "importance": 0.19196
+      },
+      {
+        "feature": "bigram_repetition_rate",
+        "importance": 0.18857
+      },
+      {
+        "feature": "char_entropy",
+        "importance": 0.18398
+      },
+      {
+        "feature": "word_repetition_rate",
+        "importance": 0.15865
+      },
+      {
+        "feature": "lexical_uniformity_jaccard",
+        "importance": 0.14384
+      }
+    ],
+    "Indo-Aryan": [
+      {
+        "feature": "bigram_entropy",
+        "importance": 2.0297
+      },
+      {
+        "feature": "indic_char_ratio",
+        "importance": 0.28587
+      },
+      {
+        "feature": "bigram_repetition_rate",
+        "importance": 0.22783
+      },
+      {
+        "feature": "comma_danda_density",
+        "importance": 0.22383
+      },
+      {
+        "feature": "word_entropy",
+        "importance": 0.2093
+      },
+      {
+        "feature": "char_entropy",
+        "importance": 0.18312
+      },
+      {
+        "feature": "root_ttr",
+        "importance": 0.17725
+      },
+      {
+        "feature": "prefix_marker_frequency",
+        "importance": 0.1704
+      },
+      {
+        "feature": "mean_sentence_length",
+        "importance": 0.16571
+      },
+      {
+        "feature": "consonant_ratio",
+        "importance": 0.13776
+      }
+    ]
+  },
+  "language_fingerprints": {
+    "ta": [
+      {
+        "feature": "bigram_entropy",
+        "importance": 2.26427
+      },
+      {
+        "feature": "word_entropy",
+        "importance": 0.2713
+      },
+      {
+        "feature": "char_entropy",
+        "importance": 0.25354
+      },
+      {
+        "feature": "root_ttr",
+        "importance": 0.25216
+      },
+      {
+        "feature": "bigram_repetition_rate",
+        "importance": 0.23228
+      },
+      {
+        "feature": "punctuation_density",
+        "importance": 0.22113
+      },
+      {
+        "feature": "comma_danda_density",
+        "importance": 0.18263
+      },
+      {
+        "feature": "consonant_ratio",
+        "importance": 0.18071
+      }
+    ],
+    "te": [
+      {
+        "feature": "bigram_entropy",
+        "importance": 2.21734
+      },
+      {
+        "feature": "comma_danda_density",
+        "importance": 0.3281
+      },
+      {
+        "feature": "consonant_ratio",
+        "importance": 0.32017
+      },
+      {
+        "feature": "word_entropy",
+        "importance": 0.20871
+      },
+      {
+        "feature": "bigram_repetition_rate",
+        "importance": 0.20813
+      },
+      {
+        "feature": "lexical_uniformity_jaccard",
+        "importance": 0.16291
+      },
+      {
+        "feature": "word_repetition_rate",
+        "importance": 0.16245
+      },
+      {
+        "feature": "root_ttr",
+        "importance": 0.16193
+      }
+    ],
+    "ml": [
+      {
+        "feature": "bigram_entropy",
+        "importance": 1.97912
+      },
+      {
+        "feature": "comma_danda_density",
+        "importance": 0.33853
+      },
+      {
+        "feature": "root_ttr",
+        "importance": 0.28094
+      },
+      {
+        "feature": "consonant_ratio",
+        "importance": 0.26686
+      },
+      {
+        "feature": "word_entropy",
+        "importance": 0.25192
+      },
+      {
+        "feature": "word_length_std",
+        "importance": 0.23065
+      },
+      {
+        "feature": "char_entropy",
+        "importance": 0.19434
+      },
+      {
+        "feature": "bigram_repetition_rate",
+        "importance": 0.14169
+      }
+    ],
+    "kn": [
+      {
+        "feature": "bigram_entropy",
+        "importance": 2.52468
+      },
+      {
+        "feature": "lang_kn",
+        "importance": 0.49258
+      },
+      {
+        "feature": "comma_danda_density",
+        "importance": 0.23057
+      },
+      {
+        "feature": "word_entropy",
+        "importance": 0.21694
+      },
+      {
+        "feature": "word_repetition_rate",
+        "importance": 0.20561
+      },
+      {
+        "feature": "consonant_ratio",
+        "importance": 0.19051
+      },
+      {
+        "feature": "root_ttr",
+        "importance": 0.19013
+      },
+      {
+        "feature": "bigram_repetition_rate",
+        "importance": 0.17215
+      }
+    ],
+    "hi": [
+      {
+        "feature": "bigram_entropy",
+        "importance": 1.73314
+      },
+      {
+        "feature": "indic_char_ratio",
+        "importance": 0.39214
+      },
+      {
+        "feature": "prefix_marker_frequency",
+        "importance": 0.26719
+      },
+      {
+        "feature": "char_entropy",
+        "importance": 0.24199
+      },
+      {
+        "feature": "bigram_repetition_rate",
+        "importance": 0.20988
+      },
+      {
+        "feature": "comma_danda_density",
+        "importance": 0.20698
+      },
+      {
+        "feature": "mean_sentence_length",
+        "importance": 0.16517
+      },
+      {
+        "feature": "root_ttr",
+        "importance": 0.157
+      }
+    ],
+    "bn": [
+      {
+        "feature": "bigram_entropy",
+        "importance": 2.22927
+      },
+      {
+        "feature": "word_entropy",
+        "importance": 0.30815
+      },
+      {
+        "feature": "indic_char_ratio",
+        "importance": 0.26269
+      },
+      {
+        "feature": "comma_danda_density",
+        "importance": 0.25161
+      },
+      {
+        "feature": "root_ttr",
+        "importance": 0.23696
+      },
+      {
+        "feature": "bigram_repetition_rate",
+        "importance": 0.21661
+      },
+      {
+        "feature": "digit_ratio",
+        "importance": 0.20783
+      },
+      {
+        "feature": "char_entropy",
+        "importance": 0.20472
+      }
+    ],
+    "mr": [
+      {
+        "feature": "bigram_entropy",
+        "importance": 2.16398
+      },
+      {
+        "feature": "indic_char_ratio",
+        "importance": 0.35094
+      },
+      {
+        "feature": "bigram_repetition_rate",
+        "importance": 0.26118
+      },
+      {
+        "feature": "prefix_marker_frequency",
+        "importance": 0.21359
+      },
+      {
+        "feature": "comma_danda_density",
+        "importance": 0.20748
+      },
+      {
+        "feature": "word_entropy",
+        "importance": 0.18803
+      },
+      {
+        "feature": "char_entropy",
+        "importance": 0.15715
+      },
+      {
+        "feature": "lexical_uniformity_jaccard",
+        "importance": 0.15234
+      }
+    ],
+    "gu": [
+      {
+        "feature": "bigram_entropy",
+        "importance": 1.99242
+      },
+      {
+        "feature": "lang_gu",
+        "importance": 0.267
+      },
+      {
+        "feature": "mean_sentence_length",
+        "importance": 0.23815
+      },
+      {
+        "feature": "comma_danda_density",
+        "importance": 0.22925
+      },
+      {
+        "feature": "bigram_repetition_rate",
+        "importance": 0.22365
+      },
+      {
+        "feature": "word_entropy",
+        "importance": 0.19822
+      },
+      {
+        "feature": "root_ttr",
+        "importance": 0.1765
+      },
+      {
+        "feature": "indic_char_ratio",
+        "importance": 0.13769
+      }
+    ]
+  }
+}
